@@ -15,7 +15,7 @@ function Home() {
     <div className="student-container">
            {STUDENT_DATA.map((student) => {
             const {name, email, city, gender} = student;
-            const avatar = gender === "Female" ? "./src/component/StudentCard/girl.png" : "./src/component/StudentCard/boy.png";
+            const avatar = gender === "Female" ? "./Student.img/boy.png" : "./Student.img/girl.png";
             return (
             <StudentCard name={name} email={email} city={city} avatar={avatar} key={email} />
           );
