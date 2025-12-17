@@ -1,5 +1,5 @@
 import { createRoot } from 'react-dom/client';
-import Home from '../Home.jsx'
+import Home from './Home.jsx'
 import { BG_COLOR } from './component/configs/app.js';
 
 createRoot(document.getElementById('root')).render(

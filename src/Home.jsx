@@ -1,7 +1,7 @@
 import "./Home.css";
-import { STUDENT_DATA } from "./src/component/configs/student.jsx";
-import StudentCard from "./src/component/StudentCard/StudentCard.jsx";
-import { APP_NAME,APP_DESCRIPTION , PRIMARY_COLOR,SECONDARY_COLOR } from "./src/component/configs/app.js";
+import { STUDENT_DATA } from "./component/configs/student.jsx";
+import StudentCard from "./component/StudentCard/StudentCard.jsx";
+import { APP_NAME,APP_DESCRIPTION , PRIMARY_COLOR,SECONDARY_COLOR } from "./component/configs/app.js";
 
 
 function Home() {
